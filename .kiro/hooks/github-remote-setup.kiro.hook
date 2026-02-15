@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Add GitHub Remote",
+  "description": "Adds the GitHub remote origin for SocialMediaAgent repository",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "git remote add origin https://github.com/Deepanshu11-ai/SocialMediaAgent.git"
+  }
+}
